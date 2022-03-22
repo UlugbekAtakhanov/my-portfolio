@@ -2,6 +2,8 @@ import Image from 'next/image';
 import {motion} from "framer-motion"
 import {AppWrapper} from '../AppWrapper';
 
+import { Typewriter } from 'react-simple-typewriter';
+
 const Header = () => {
         return (
                 <div className="flex-1 flex flex-col md:flex-row gap-4 md:items-center pb-2  md:pb-0 md:justify-center justify-end pt-20 md:pt-40 overflow-hidden">
@@ -22,9 +24,20 @@ const Header = () => {
                                         initial = {{opacity: 0}}
                                         whileInView={{x: [-100, 0], opacity: [0, 1]}}
                                         transition = {{duration: .5, delay: .3}}
-                                        className= "shadow-custom1 bg-white uppercase text-xs tracking-wider mt-6 flex flex-col items-end text-gray-color px-8 py-4 rounded-lg">
-                                        <p>web developer</p>
-                                        <p>freelancer</p>
+                                        className= "shadow-custom1 bg-white text-sm tracking-wider mt-6 flex flex-col items-end text-gray-color px-8 py-4 rounded-lg">
+                                        <p>I am</p>
+                                        <p className='text-black font-bold uppercase text-xs'>
+                                                <Typewriter
+                                                className = "text-red-500"
+                                                        loop
+                                                        cursor
+                                                        cursorStyle='_'
+                                                        typeSpeed={70}
+                                                        deleteSpeed = {50}
+                                                        delaySpeed = {1000}
+                                                        words = {["Developer", "Freelancer", "Designer"]}
+                                                />
+                                        </p>
                                 </motion.div>
                         </div>
 
