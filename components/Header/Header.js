@@ -43,7 +43,10 @@ const Header = () => {
 
                         <div className=' grid place-content-center relative'>
                                 <div className='header__bg_circle'></div>
-                                <Image src="/profile.png" width = "500" height = "600" />
+                                <div className=' relative w-[500px] aspect-[2/3] scale-125'>
+                                        {/* <Image src="/profile1.png" width = "600" height = "700" /> */}
+                                        <Image src="/profile1.png" layout='fill' objectFit='cover' />
+                                </div>
                         </div>
 
                         <motion.div
