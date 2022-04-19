@@ -22,7 +22,7 @@ const Navbar = () => {
                     <ul className="hidden  flex-1 sm:flex justify-center gap-7 ">
                         {
                             ["home", "about", "work", "skills", "contact"].map((item, index) => (
-                                <li key = {index}><a className="text-gray-color uppercase text-sm hover:text-secondary-color" href="#">{item}</a></li>
+                                <li key = {index}><a className="text-gray-color uppercase text-sm hover:text-secondary-color" href={`#${item}`}>{item}</a></li>
                             ))
                         }
                     </ul>
@@ -57,7 +57,7 @@ const Navbar = () => {
                         ["home", "about", "work", "skills", "contact"].map((item, index) => (
                             <li key = {index}><motion.a 
                             whileHover={{scale: 1.05}}
-                            onClick={() => setIsOpen(false)} className="text-gray-color  uppercase text-sm hover:text-secondary-color block py-3 px-8" href="#">{item}</motion.a></li>
+                            onClick={() => setIsOpen(false)} className="text-gray-color  uppercase text-sm hover:text-secondary-color block py-3 px-8" href={`#${item}`}>{item}</motion.a></li>
                         ))
                     }
                 </ul>
