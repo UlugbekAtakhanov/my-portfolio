@@ -11,7 +11,7 @@ const works = [
 	{id: 4, tag: "React JS", title: "Travel Advisor Google Map", desc: "I created this site just for fun, using react, redux and GoogleMap and Rapid API", projectLink: "https://tr-advisor.netlify.app/", codeLink: "https://github.com/UlugbekAtakhanov/travel-advisor", img: "/googlemap1.png"},
 	{id: 5, tag: "Next JS", title: "Mui-project", desc: "This project is created using Mui components. I realized that knowing CSS liblary like Mui, it is a big strength", projectLink: "https://mui-project.vercel.app/", codeLink: "https://github.com/UlugbekAtakhanov/Mui-project", img: "/mui.png"},
 	{id: 6, tag: "React JS", title: "Modern UI / UX Website", desc: "A modern ui / ux portfolio website", projectLink: "eeee.netlify.app", codeLink: "github", img: "/about01.png"},
-	{id: 7, tag: "UI /UX", title: "Namangan IT School", desc: "This website is created for Namangan(Uzbekistan) IT School. Used technologies: react, sass, tailwindcss and framer motion", projectLink: "https://nits21.netlify.app/", codeLink: "https://github.com/UlugbekAtakhanov/nits21", img: "/nits21.png"},
+	{ id: 7, tag: "UI /UX", title: "Namangan IT School", desc: "This website is created for Namangan(Uzbekistan) IT School. Used technologies: react, sass, tailwindcss and framer motion", projectLink: "https://nits.uz/", codeLink: "https://github.com/UlugbekAtakhanov/nits", img: "/nits21.png"},
 	{id: 8, tag: "Next JS", title: "Modern UI / UX Website", desc: "A modern ui / ux portfolio website", projectLink: "eeee.netlify.app", codeLink: "github", img: "/about01.png"},
 	{id: 9, tag: "React JS", title: "Modern UI / UX Website", desc: "A modern ui / ux portfolio website", projectLink: "eeee.netlify.app", codeLink: "github", img: "/about01.png"},
 ]
