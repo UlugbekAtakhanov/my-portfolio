@@ -34,7 +34,6 @@ const Skills = () => {
 				<div className=' lg:flex lg:justify-center p-12 gap-14 '>
 
 					<div
-						transition = {{ staggerChildren: 1}}
 						className=' flex-[3]  flex flex-wrap gap-10 justify-center items-center bg-primary-color p-4 rounded shadow'>
 						{skills.map((item, index) => (
 							<motion.div
