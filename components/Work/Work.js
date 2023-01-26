@@ -6,6 +6,7 @@ import Cards from "./Cards";
 
 const works = [
 	{ id: 1, tag: "UI /UX", title: "Mozi TailwindCSS", desc: "Pixel perfect website copyed from figma using tailwindcss", projectLink: "https://mozi-tailwindcss.netlify.app/", codeLink: "https://github.com/UlugbekAtakhanov/Mozi-TailwindCSS", img: "/mozi.png" },
+	{ id: 13, tag: "Next JS", title: "Travel website", desc: "A modern ui / ux portfolio website", projectLink: "https://travel-uz.vercel.app/", codeLink: "https://github.com/UlugbekAtakhanov/TravelUz", img: "/travel-uz.png" },
 	{ id: 2, tag: "React JS", title: "React Table", desc: "This table has filtering, pagination and sorting logic without any library, and as a backend I used Firebase", projectLink: "https://react-table-sorting-filtering.netlify.app/", codeLink: "https://github.com/UlugbekAtakhanov/Table-Sorting-Filtering", img: "/table.png" },
 	{ id: 3, tag: "JS", title: "Incomes&Expenses", desc: "This site is perfect for calculating Incomes and Expenses. Is created using vanilla JavaScript", projectLink: "https://incs-exps-ux.netlify.app/", codeLink: "https://github.com/UlugbekAtakhanov/Tutorial/tree/main/frontend-tutorial-for-beginners/4-DOM-manipulation-tutorial/Practice/7-inc%26exp", img: "/incs&exps.avif" },
 	{ id: 4, tag: "React JS", title: "Travel Advisor Google Map", desc: "I created this site just for fun, using react, redux and GoogleMap and Rapid API", projectLink: "https://namangan-travel.netlify.app/", codeLink: "https://github.com/UlugbekAtakhanov/travel-advisor", img: "/googlemap1.png" },
@@ -18,7 +19,8 @@ const works = [
 
 	{ id: 11, tag: "JS", title: "Accordion", desc: "Simple animated accordion", projectLink: "https://accordion-ux.netlify.app/", codeLink: "https://github.com/UlugbekAtakhanov/Tutorial/tree/main/frontend-tutorial-for-beginners/4-DOM-manipulation-tutorial/Practice/4-accordion", img: "/accordion.avif" },
 	{ id: 12, tag: "Next JS", title: "Next-Pizza", desc: "This is a pizza restaurant website. This is a pixel-perfect UI. I used Next.js, Redux Toolkit, API and Tailwind CSS", projectLink: "https://next-pizza.vercel.app/", codeLink: "https://github.com/UlugbekAtakhanov/Next-Pizza", img: "/pizza.png" },
-	{ id: 13, tag: "React JS", title: "Modern UI / UX Website", desc: "A modern ui / ux portfolio website", projectLink: "eeee.netlify.app", codeLink: "github", img: "/about01.png" },
+	{ id: 14, tag: "React JS", title: "Modern UI / UX Website", desc: "A modern ui / ux portfolio website", projectLink: "eeee.netlify.app", codeLink: "github", img: "/about01.png" },
+	{ id: 15, tag: "React JS", title: "Modern UI / UX Website", desc: "A modern ui / ux portfolio website", projectLink: "eeee.netlify.app", codeLink: "github", img: "/about01.png" },
 ]
 
 const unique = new Set(works.map(item => item.tag))
