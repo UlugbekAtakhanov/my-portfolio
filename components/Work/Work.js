@@ -6,9 +6,11 @@ import Cards from "./Cards";
 
 const works = [
 	{ id: 1, tag: "UI /UX", title: "Mozi TailwindCSS", desc: "Pixel perfect website copyed from figma using tailwindcss", projectLink: "https://mozi-tailwindcss.netlify.app/", codeLink: "https://github.com/UlugbekAtakhanov/Mozi-TailwindCSS", img: "/mozi.png" },
+	{ id: 16, tag: "React JS", title: "Clinic Automation", desc: "Login : password - user1:123, user2:123, user3:123, I cannot show code, it is private. I can show it only in interview", projectLink: "https://clinic-ux.netlify.app/login", codeLink: "github", img: "/clinic_ux.jpg" },
+	{ id: 3, tag: "JS", title: "Incomes&Expenses", desc: "This site is perfect for calculating Incomes and Expenses. Is created using vanilla JavaScript", projectLink: "https://incs-exps-ux.netlify.app/", codeLink: "https://github.com/UlugbekAtakhanov/Tutorial/tree/main/frontend-tutorial-for-beginners/4-DOM-manipulation-tutorial/Practice/7-inc%26exp", img: "/incs&exps.avif" },
+	{ id: 17, tag: "React JS", title: "FEM Ecommerce Challenge", desc: "Ecommerce website for teaching my students", projectLink: "https://fem-ecommerce-ux.netlify.app/", codeLink: "https://github.com/UlugbekAtakhanov/FEM-Ecommerce-challenge", img: "/fem-ecommerce-ux.jpg" },
 	{ id: 13, tag: "Next JS", title: "Travel website", desc: "A modern ui / ux portfolio website", projectLink: "https://travel-uz.vercel.app/", codeLink: "https://github.com/UlugbekAtakhanov/TravelUz", img: "/travel-uz.png" },
 	{ id: 2, tag: "React JS", title: "React Table", desc: "This table has filtering, pagination and sorting logic without any library, and as a backend I used Firebase", projectLink: "https://react-table-sorting-filtering.netlify.app/", codeLink: "https://github.com/UlugbekAtakhanov/Table-Sorting-Filtering", img: "/table.png" },
-	{ id: 3, tag: "JS", title: "Incomes&Expenses", desc: "This site is perfect for calculating Incomes and Expenses. Is created using vanilla JavaScript", projectLink: "https://incs-exps-ux.netlify.app/", codeLink: "https://github.com/UlugbekAtakhanov/Tutorial/tree/main/frontend-tutorial-for-beginners/4-DOM-manipulation-tutorial/Practice/7-inc%26exp", img: "/incs&exps.avif" },
 	{ id: 4, tag: "React JS", title: "Travel Advisor Google Map", desc: "I created this site just for fun, using react, redux and GoogleMap and Rapid API", projectLink: "https://namangan-travel.netlify.app/", codeLink: "https://github.com/UlugbekAtakhanov/travel-advisor", img: "/googlemap1.png" },
 	{ id: 5, tag: "UI /UX", title: "Gericht Restaurant UI", desc: "UI design of modern restaurant, very creative work. Copied from figma  using Next JS, Tailwind Css.", projectLink: "https://gericht-restaurant-cwd0vm8co-ulugbekatakhanov.vercel.app/", codeLink: "https://github.com/UlugbekAtakhanov/Gericht-Restaurant", img: "/gericht.jpg" },
 	{ id: 6, tag: "Next JS", title: "Mui-project", desc: "This project is created using Mui components. I realized that knowing CSS liblary like Mui, it is a big strength", projectLink: "https://mui-project.vercel.app/", codeLink: "https://github.com/UlugbekAtakhanov/Mui-project", img: "/mui.png" },
@@ -22,6 +24,7 @@ const works = [
 	{ id: 14, tag: "React JS", title: "Modern UI / UX Website", desc: "A modern ui / ux portfolio website", projectLink: "eeee.netlify.app", codeLink: "github", img: "/about01.png" },
 	{ id: 15, tag: "React JS", title: "Modern UI / UX Website", desc: "A modern ui / ux portfolio website", projectLink: "eeee.netlify.app", codeLink: "github", img: "/about01.png" },
 ]
+// 17 ohiri
 
 const unique = new Set(works.map(item => item.tag))
 
