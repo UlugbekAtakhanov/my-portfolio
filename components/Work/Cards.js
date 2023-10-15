@@ -6,7 +6,7 @@ const Cards = ({ item }) => {
     return (
         <div className="  bg-white p-4 shadow-custom1 overflow-hidden hover:shadow-custom2 transition-all duration-500 rounded-md">
             <div className="w-full aspect-[10/10] relative rounded-lg overflow-hidden">
-                <Image src={item.img} layout="fill" objectFit="cover" />
+                <Image src={item.img} layout="fill" objectFit="cover" alt="img" />
                 <div className="absolute text-xs z-10 bg-white bottom-[-4px] text-center text-gray-color shadow-custom1 py-1 px-2 rounded-[3px] left-1/2 -translate-x-1/2">
                     {item.tag}
                 </div>
