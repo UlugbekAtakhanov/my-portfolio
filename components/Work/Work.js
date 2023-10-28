@@ -28,8 +28,7 @@ const works = [
         title: "Incomes&Expenses",
         desc: "This site is perfect for calculating Incomes and Expenses. Is created using vanilla JavaScript",
         projectLink: "https://incs-exps-ux.netlify.app/",
-        codeLink:
-            "https://github.com/UlugbekAtakhanov/Tutorial/tree/main/frontend-tutorial-for-beginners/4-DOM-manipulation-tutorial/Practice/7-inc%26exp",
+        codeLink: "https://github.com/UlugbekAtakhanov/incs-exps",
         img: "/incs&exps.avif",
     },
     {
@@ -106,12 +105,12 @@ const works = [
     },
     {
         id: 7,
-        tag: "UI /UX",
-        title: "Namangan IT School",
-        desc: "This website is created for Namangan(Uzbekistan) IT School. Used technologies: react, sass, tailwindcss and framer motion",
-        projectLink: "https://nits.uz/",
-        codeLink: "https://github.com/UlugbekAtakhanov/nits",
-        img: "/nits21.png",
+        tag: "React JS",
+        title: "YouTube Clone",
+        desc: "It is a clone of YouTube. Created using React.js and TypeScript.",
+        projectLink: "https://youtube-ux.netlify.app/",
+        codeLink: "https://github.com/UlugbekAtakhanov/YouTube",
+        img: "/youtube.jpg",
     },
     {
         id: 8,
@@ -182,7 +181,7 @@ const works = [
         img: "/about01.png",
     },
 ];
-// 17 ohiri
+// 19 ohiri
 
 const unique = new Set(works.map((item) => item.tag));
 
@@ -225,7 +224,7 @@ const Work = () => {
                 })}
             </div>
 
-            <motion.div layout className=" grid grid-cols-[repeat(auto-fit,230px)] justify-center items-start gap-4 px-4 grid-rows-[masonry]">
+            <motion.div layout className=" grid grid-cols-[repeat(auto-fit,250px)] justify-center items-start gap-4 px-4 grid-rows-[masonry]">
                 <AnimatePresence>
                     {filteredList.length > 0 &&
                         filteredList.map((item) => {
