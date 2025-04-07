@@ -5,7 +5,8 @@ import {motion} from  "framer-motion"
 import {AppWrapper} from "../AppWrapper"
 
 const skills = [
-	{img: "/nextjs1.png", name: "next js"},
+    { img: "/next1.png", name: "next js" },
+    { img: "/zustand.png", name: "zustand" },
 	{img: "/redux.png", name: "redux"},
 	{img: "/react.png", name: "react"},
 	{img: "/tailwind.svg", name: "tailwindCss"},
@@ -16,7 +17,8 @@ const skills = [
 	{img: "/node.png", name: "node"},
 	{img: "/javascript.png", name: "javascript"},
 	{img: "/python.png", name: "python"},
-	{img: "/html.png", name: "html"},
+    { img: "/html.png", name: "html" },
+    { img: "/css1.png", name: "css" },
 	{img: "/api.png", name: "api"},
 ]
 

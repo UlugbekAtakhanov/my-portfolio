@@ -58,8 +58,8 @@ const Header = () => {
                 <div className="w-[100px] h-[100px] rounded-full p-3 bg-white shadow-custom1 ">
                     <img className="w-full h-full object-contain" src="/tailwind.svg" alt="" />
                 </div>
-                <div className="w-[150px] h-[150px] rounded-full mt-6 md:ml-6 md:mt-0 p-3 bg-white shadow-custom1 ">
-                    <img className="w-full h-full object-cover" src="/nextjs.png" alt="" />
+                <div className="w-[150px] h-[150px] rounded-full mt-6 md:ml-6 md:mt-0 p-3 bg-white shadow-custom1 overflow-hidden">
+                    <img className="w-full h-full object-cover" src="/next1.png" alt="" />
                 </div>
                 <div className="w-[70px] h-[70px] rounded-full p-3 bg-white shadow-custom1 ">
                     <img className="w-full h-full object-contain" src="/redux.png" alt="" />

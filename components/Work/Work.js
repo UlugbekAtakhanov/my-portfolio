@@ -5,6 +5,15 @@ import Cards from "./Cards";
 
 const works = [
     {
+        id: 20,
+        tag: "Next JS",
+        title: "IlmTech Educational Platform",
+        desc: "An innovative educational platform built with Next.js 15 App Router, offering seamless navigation, fast performance, and modern web standards for an engaging learning experience.",
+        projectLink: "https://ilmtech.namsoft.uz/",
+        codeLink: "#code_is_private",
+        img: "/ilmTech.png",
+    },
+    {
         id: 1,
         tag: "UI /UX",
         title: "Mozi TailwindCSS",
@@ -13,15 +22,35 @@ const works = [
         codeLink: "https://github.com/UlugbekAtakhanov/Mozi-TailwindCSS",
         img: "/mozi.png",
     },
+
     {
-        id: 16,
-        tag: "React JS",
-        title: "Clinic Automation",
-        desc: "Login : password - user1:123, user2:123, user3:123, I cannot show code, it is private. I can show it only in interview",
-        projectLink: "https://clinic-ux.netlify.app/login",
-        codeLink: "github",
-        img: "/clinic_ux.jpg",
+        id: 21,
+        tag: "Vue3",
+        title: "OpusChart Resource Management Tool",
+        desc: "This is a resource management tool for managing staff allocation and utilization. It is created using Vue3, Pinia and Naive UI. It was created for PKF Antares audit firm. Code is private.",
+        projectLink: "https://coolumba.com/solutions-opuschart/",
+        codeLink: "#code_is_private",
+        img: "/opus.png",
     },
+
+    {
+        id: 11,
+        tag: "UI / UX",
+        title: "E-Phorm Home Page",
+        desc: "Modern UI/UX Website created with lates technologies like Next JS, Tailwind CSS, Framer Motion",
+        projectLink: "https://e-phorm.netlify.app/",
+        codeLink: "https://github.com/UlugbekAtakhanov/E-Phorm-Tax-landing-page",
+        img: "/e-phorm.png",
+    },
+    // {
+    //     id: 16,
+    //     tag: "React JS",
+    //     title: "Clinic Automation",
+    //     desc: "Login : password - user1:123, user2:123, user3:123, I cannot show code, it is private. I can show it only in interview",
+    //     projectLink: "https://clinic-ux.netlify.app/login",
+    //     codeLink: "github",
+    //     img: "/clinic_ux.jpg",
+    // },
     {
         id: 3,
         tag: "JS",
@@ -143,16 +172,7 @@ const works = [
         img: "/currencyConverter.avif",
     },
 
-    {
-        id: 11,
-        tag: "JS",
-        title: "Accordion",
-        desc: "Simple animated accordion",
-        projectLink: "https://accordion-ux.netlify.app/",
-        codeLink:
-            "https://github.com/UlugbekAtakhanov/Tutorial/tree/main/frontend-tutorial-for-beginners/4-DOM-manipulation-tutorial/Practice/4-accordion",
-        img: "/accordion.avif",
-    },
+
     {
         id: 12,
         tag: "Next JS",
@@ -181,7 +201,7 @@ const works = [
         img: "/about01.png",
     },
 ];
-// 19 ohiri
+// 21 ohiri
 
 const unique = new Set(works.map((item) => item.tag));
 
